@@ -238,7 +238,7 @@ void CObservationGPS::serializeFrom(
 		}
 		break;
 		default:
-			MRPT_THROW_UNKNOWN_SERIALIZATION_VERSION(version)
+			MRPT_THROW_UNKNOWN_SERIALIZATION_VERSION(version);
 	};
 
 	if (originalReceivedTimestamp == INVALID_TIMESTAMP)
